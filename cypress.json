@@ -1,0 +1,9 @@
+{
+    "defaultCommandTimeout": 60000,
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "projectId": "8azkqo",
+    "numTestsKeptInMemory": 0,
+    "experimentalStudio": true,
+    "watchForFileChanges": false
+}
