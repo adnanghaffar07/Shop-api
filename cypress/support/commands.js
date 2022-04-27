@@ -1,13 +1,28 @@
-/*
-You should create a condition based on the availability of the text on the page, not just DOM.
+/* eslint-disable max-nested-callbacks */
+// ***********************************************
+// This example commands.js shows you how to
+// create various custom commands and overwrite
+// existing commands.
+//
+// For more comprehensive examples of custom
+// commands please read more here:
+// https://on.cypress.io/custom-commands
+// ***********************************************
+//
+//
+// -- This is a parent command --
+// Cypress.Commands.add("login", (email, password) => { ... })
+//
+//
+// -- This is a child command --
+// Cypress.Commands.add("drag", { prevSubject: 'element'}, (subject, options) => { ... })
+//
+//
+// -- This is a dual command --
+// Cypress.Commands.add("dismiss", { prevSubject: 'optional'}, (subject, options) => { ... })
+//
+//
+// -- This is will overwrite an existing command --
+// Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
 
-So you need to find a DOM locator that always exists, for certain text, and then verify if the expected text exist in that DOM section or not.
-So the code can look like this:
-
-cy.get('locator').invoke('text').then(myText => {
-     if(myText.includes('some text'){
-
-      } else {
-
-     }
-}) */
+//bellow will be used when I'll refactor the way a specific page is reached

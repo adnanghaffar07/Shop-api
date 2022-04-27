@@ -1,9 +1,13 @@
 {
-    "defaultCommandTimeout": 60000,
-    "viewportWidth": 1920,
-    "viewportHeight": 1080,
-    "projectId": "8azkqo",
-    "numTestsKeptInMemory": 0,
-    "experimentalStudio": true,
-    "watchForFileChanges": false
+  "env": {
+    "TAGS": "not @ignore",
+    "BaseUrl":"https://www.demoblaze.com/"
+  },
+  "chromeWebSecurity": false,
+  "watchForFileChanges": false,
+  "videoUploadOnPasses": false,
+  "viewportHeight": 720,
+  "viewportWidth": 1280,
+  "projectId": "uiwyhd",
+  "defaultCommandTimeout": 60000
 }
