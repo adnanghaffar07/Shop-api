@@ -2,13 +2,13 @@
 Feature: Login
 
         @Shop
-        Scenario: As Customer I can find Pets with available status
+        Scenario: As Customer I can search the Pets with available status
             Given I send get request with available status
              Then I see API response is 200 success
 
 
         @Shop
-        Scenario: As Customer I Add  a Pet
+        Scenario: As Customer I Add a Pet
             Given I send post request to create a Pet
              Then I see API response is 200 success
 
